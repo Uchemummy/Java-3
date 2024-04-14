@@ -1,12 +1,9 @@
 /* grosery.css */
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
-
-
 .general{
   background-image: url(../images/grocery.jpeg);
   background-size: cover;
@@ -15,7 +12,6 @@ body {
 }
 
 header {
-  /* background-color: rgb(41, 248, 41); */
   text-align: center;
   padding: 2px;
   background-image: url(../images/grocery2.jpg);
@@ -77,7 +73,6 @@ footer {
   justify-content: space-around;
   width: 79%;
   margin: auto;
-
 }
 
 .section {
