@@ -1,0 +1,137 @@
+/* grosery.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.general{
+  background-image: url(../images/grocery.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  /* background-color: rgb(41, 248, 41); */
+  text-align: center;
+  padding: 2px;
+  background-image: url(../images/grocery2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(242, 194, 104, 0.819);
+}
+
+.basket{
+  /* padding: 0 200px; */
+  width: 25%;
+  color:rgba(246, 241, 193, 0.698);
+}
+
+.logo {
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding-bottom: -20px;
+}
+
+.container-flex{
+  display: flex;
+  flex-direction: row;
+  padding-left: 19%;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.phase{
+  width: 60%;
+  background: rgba(240, 236, 236, 0.569);
+  padding: 8px 10px;
+  text-align: left;
+  border-radius: 10px  0 0 10px;
+}
+.phase-one{
+  text-align: right;
+  margin-right: -20rem;
+  background: rgba(240, 236, 236, 0.569);
+  padding: 6px 10px;
+  padding-right: 100px;
+  border-radius: 10px  0 0 10px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: rgba(196, 244, 228, 0.762);
+}
+
+.quote {
+  font-style: italic;
+}
+
+.sub-container-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 79%;
+  margin: auto;
+
+}
+
+.section {
+  /* flex-basis: calc(10% - 30px); Adjust width based on the number of sections */
+  margin: 10px;
+}
+
+.section-title{
+  text-decoration:solid;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.subcategories{
+  font-weight: 600;
+  list-style-type: none;
+  font-size: 20px;
+
+}
+
+ul.subcategories li {
+  margin-bottom: 20px;
+  color:rgba(0, 0, 0, 0.883);
+}
+
+ul.subcategories li i {
+  margin-left: 10px;
+}
+
+.section-title a{
+text-decoration: none;
+color: rgb(29, 20, 20);
+}
+
+a:hover{
+  color: red;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+.signature{
+  font-style: italic;
+}
+
+span{
+  color:rgba(14, 13, 13, 0.836);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#essentials-list li{
+  color: white;
+}

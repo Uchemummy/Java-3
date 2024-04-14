@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exquisite Grocery List</title>
+  <link rel="stylesheet" href="grosery.css">
+  <script src="https://kit.fontawesome.com/d62402eec1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="general">
+  <header>
+    <h1 class="logo"><i class="fa-solid fa-cart-shopping basket"></i>GROCERY LIST <i class="fa-solid fa-cart-shopping fa-flip-horizontal basket"></i></h1>
+  </header>
+
+  <div class="container-flex">
+    <h4 class="phase">Store Name:</h4>
+    <h4 class="phase-one"> Date:</h4>
+  </div>
+
+  <div class="sub-container-flex">
+    <section id="essentials" class="section">
+      <h1 class="section-title" onclick="displayEssentials()">Essentials</h1>
+      <ul class="subcategories" id="essentials-list"></ul>
+    </section>
+
+    <section id="Beverages" class="section">
+      <h1 class="section-title" onclick="displayBeverages()">Beverages</h1>
+      <ul class="subcategories" id="Beverages-list"></ul>
+    </section>
+
+    <section id="Frozen" class="section">
+      <h1 class="section-title" onclick="displayFrozen()">Frozen</h1>
+      <ul class="subcategories" id="Frozen-list"></ul>
+    </section>
+
+    <section id="personal-notes" class="section">
+      <h1 class="section-title" onclick="displayPersonalNotes()">Personal Notes</h1>
+      <ul class="subcategories" id="personal-notes-list"></ul>
+    </section>
+  </div>
+
+  <footer>
+    <p class="quote">"Cooking is love made visible." - Uchemummi</p>
+    <p class="thank-you-message">Thank you for choosing us to accompany you on your culinary adventures!</p>
+    <p class="signature">Crafted with care by the good people of <span> Cohort12</span></p>
+  </footer>
+</div>
+</div>
+  <div id="grocery-list"></div>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="grosery.js"></script>
+</body>
+</html>
